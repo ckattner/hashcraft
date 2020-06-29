@@ -1,0 +1,31 @@
+Layout/LineLength:
+  Max: 100
+  Exclude:
+    - hashcraft.gemspec
+
+Metrics/BlockLength:
+  ExcludedMethods:
+    - let
+    - it
+    - describe
+    - context
+    - specify
+    - define
+
+Metrics/MethodLength:
+  Max: 30
+
+AllCops:
+  TargetRubyVersion: 2.5
+
+Metrics/AbcSize:
+  Max: 16
+
+Metrics/ClassLength:
+  Max: 125
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
