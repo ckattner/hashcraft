@@ -7,11 +7,5 @@
 # LICENSE file in the root directory of this source tree.
 #
 
-require 'forwardable'
-require 'singleton'
-
-# General tooling
-require_relative 'hashcraft/generic'
-
-# Main Entrypoint(s)
-require_relative 'hashcraft/base'
+require_relative 'generic/dictionary'
+require_relative 'generic/registry'

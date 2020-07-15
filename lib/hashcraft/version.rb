@@ -8,5 +8,5 @@
 #
 
 module Hashcraft
-  VERSION = '0.0.0'
+  VERSION = '1.0.0-alpha.6'
 end
